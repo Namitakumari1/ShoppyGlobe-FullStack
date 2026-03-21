@@ -117,7 +117,7 @@ All APIs are tested using ThunderClient. Screenshots are included in documentati
 ## How to Run Project
 
 1. Clone Repository:
-   git clone https://github.com/Namitakumari1/ShoppyGlobe
+   git clone https://github.com/Namitakumari1/ShoppyGlobe-FullStack
 
 2. Frontend Setup:
    cd ShoppyGlobe
