@@ -1,0 +1,64 @@
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #f5f5f5; 
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  flex-wrap: wrap; 
+}
+
+/* Logo style */
+.logo a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* wrap links on small screens */
+  margin-top: 10px; /* spacing if wrapped */
+}
+
+/* Navigation links */
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #0077cc; /* subtle hover effect */
+}
+
+/* Cart badge */
+.cart-badge {
+  background: #ff4d4f;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 7px;
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+}
